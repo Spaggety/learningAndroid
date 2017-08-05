@@ -6,7 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.phantomflame.firstandroidapp.HomeActivity">
 
+    <Button
+        android:id="@+id/click_me_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNextScreenButtonClicked"
+        android:text="next screen"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="272dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -16,11 +26,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/click_me_button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CLick moi"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:onClick="onNextScreenButtonClicked"
+        android:text="Click me"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="136dp" />
 
 </android.support.constraint.ConstraintLayout>
